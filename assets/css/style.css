@@ -15,9 +15,8 @@ body {
     width: 100%;
     padding: 0;
     margin-left: 0;
-    margin-right: 0;
-    /*font-family: 'Open Sans', sans-serif;  */
-    font-family: 'Open Sans Condensed', sans-serif;  
+    margin-right: 0;    
+    font-family: 'Open Sans', sans-serif;  
     font-weight: 300;
 }
 
@@ -113,7 +112,7 @@ h3 {
 }
 h4,
 h5 {
-    /*font-family: 'roboto', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
@@ -141,7 +140,7 @@ h4 {
     margin-bottom: 1.8rem;
 }
 h5 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 h6 {
@@ -384,10 +383,11 @@ h1 span {
     margin-bottom: 4rem;
 }
 .heading-content h3{
-    font-size:40px;    
+    font-size:50px;    
     font-weight:700;
     letter-spacing:3px;
 	color: #fff;
+    font-family: 'Nixie One', cursive;
 }
 .btn-default {
     color: #fff;
@@ -408,7 +408,7 @@ h1 span {
 
 /*For Home Section*/
 .home{
-    background: url(assets/images/header-bg.JPG) no-repeat center top fixed;
+    background: url("../../assets/images/header-bg.JPG") no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -418,7 +418,7 @@ h1 span {
     overflow: hidden;
 }
 .home-wrapper{
-    margin-top:240px;
+    margin-top:140px;
     color:#fff;
 }
 .home-content h1{
@@ -427,7 +427,7 @@ h1 span {
     font-weight:900;
     letter-spacing:12px;
     padding:20px 0;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Nixie One', cursive;
 } 
 .home-content p{
     font-size:25px;
@@ -466,7 +466,7 @@ h1 span {
 	transition: all ease .5s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
 	position: absolute;
@@ -659,7 +659,7 @@ Main components
 
 .cd-header {
     position: absolute;
-    top:10%;
+    top:45px;
     left: 0;
     width: 100%;
     height: 50px;

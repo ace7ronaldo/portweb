@@ -405,7 +405,6 @@ h1 span {
 
 /*For Menu Section*/
 
-
 /*For Home Section*/
 .home{
     background: url("../../assets/images/header-bg.JPG") no-repeat center top fixed;
@@ -426,10 +425,15 @@ h1 span {
     color:#fff;
     font-weight:900;
     letter-spacing:12px;
+    /*lines above and below HELLO
+	
+	border-top:2px solid #ecf0f2;
+    border-bottom:2px solid #ecf0f2;*/
     padding:20px 0;
     font-family: 'Nixie One', cursive;
 } 
 .home-content p{
+	letter-spacing: 6px;
     font-size:25px;
     margin-top:20px;
     color:#ecf0f2;

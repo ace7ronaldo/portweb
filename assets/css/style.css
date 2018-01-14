@@ -687,6 +687,7 @@ Main components
 }
 #cd-logo img {
     display: block;
+    width: 70px;
 }
 @media only screen and (min-width: 768px) {
     #cd-logo {
